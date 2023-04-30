@@ -1,177 +1,589 @@
 {
-  "types": [
-    {
-      "name": "Fire",
-      "id": 0,
-      "multiplier": [
-        {
-          "id": 0,
-          "value": 0.5
-        },
-        {
-          "id": 1,
-          "value": 0.5
-        },
-        {
-          "id": 4,
-          "value": 2
-        },
-        {
-          "id": 6,
-          "value": 2
-        },
-        {
-          "id": 13,
-          "value": 2
-        },
-        {
-          "id": 14,
-          "value": 0.5
-        },
-        {
-          "id": 5,
-          "value": 0.5
-        },
-        {
-          "id": 7,
-          "value": 2
-        }
-      ]
-    },
-    {
-      "name": "Water",
-      "id": 1,
-      "multiplier": [
-        {
-          "id": 0,
-          "value": 2
-        },
-        {
-          "id": 1,
-          "value": 0.5
-        },
-        {
-          "id": 4,
-          "value": 0.5
-        },
-        {
-          "id": 11,
-          "value": 2
-        },
-        {
-          "id": 14,
-          "value": 2
-        },
-        {
-          "id": 5,
-          "value": 0.5
-        }
-      ]
-    },
-    {
-      "name": "Psychic"
-      "id": 2,
-      "multiplier": [
-        {
-          "id": 9,
-          "value": 2
-        },
-        {
-          "id": 10,
-          "value": 2
-        },
-        {
-          "id": 2,
-          "value": 0.5
-        },
-        {
-          "id": 16,
-          "value": 0
-        },
-        {
-          "id": 7,
-          "value": 0.5
-        }
-      ]
-    },
-    {
-      "name": "Normal",
-      "id": 3,
-      "multiplier": [
-        {
-          "id": 14,
-          "value": 0.5
-        },
-        {
-          "id": 15,
-          "value": 0
-        },
-        {
-          "id": 7,
-          "value": 0.5
-        }
-      ]
-    },
-    {
-      "name": "Grass",
-      "id": 4
-      "multiplier": [
-        {
-          "id": 
-        }
-      ]
-    },
-    {
-      "name": "Dragon",
-      "id": 5
-    },
-    {
-      "name": "Ice",
-      "id": 6
-    },
-    {
-      "name": "Steel",
-      "id": 7
-    },
-    {
-      "name": "Electric",
-      "id": 8
-    },
-    {
-      "name": "Fighting",
-      "id": 9
-    },
-    {
-      "name": "Poison",
-      "id": 10
-    },
-    {
-      "name": "Ground",
-      "id": 11
-    },
-    {
-      "name": "Flying",
-      "id": 12
-    },
-    {
-      "name": "Bug",
-      "id": 13
-    },
-    {
-      "name": "Rock",
-      "id": 14
-    },
-    {
-      "name": "Ghost",
-      "id": 15
-    },
-    {
-      "name": "Dark",
-      "id": 16
-    },
-    {
-      "name": "Fairy",
-      "id": 17
-    }
-  ]
-}
+    "types": [
+      {
+        "name": "Fire",
+        "id": 0,
+        "multiplier": [
+          {
+            "id": 0,
+            "value": 0.5
+          },
+          {
+            "id": 1,
+            "value": 0.5
+          },
+          {
+            "id": 4,
+            "value": 2
+          },
+          {
+            "id": 6,
+            "value": 2
+          },
+          {
+            "id": 13,
+            "value": 2
+          },
+          {
+            "id": 14,
+            "value": 0.5
+          },
+          {
+            "id": 5,
+            "value": 0.5
+          },
+          {
+            "id": 7,
+            "value": 2
+          }
+        ]
+      },
+      {
+        "name": "Water",
+        "id": 1,
+        "multiplier": [
+          {
+            "id": 0,
+            "value": 2
+          },
+          {
+            "id": 1,
+            "value": 0.5
+          },
+          {
+            "id": 4,
+            "value": 0.5
+          },
+          {
+            "id": 11,
+            "value": 2
+          },
+          {
+            "id": 14,
+            "value": 2
+          },
+          {
+            "id": 5,
+            "value": 0.5
+          }
+        ]
+      },
+      {
+        "name": "Psychic"
+        "id": 2,
+        "multiplier": [
+          {
+            "id": 9,
+            "value": 2
+          },
+          {
+            "id": 10,
+            "value": 2
+          },
+          {
+            "id": 2,
+            "value": 0.5
+          },
+          {
+            "id": 16,
+            "value": 0
+          },
+          {
+            "id": 7,
+            "value": 0.5
+          }
+        ]
+      },
+      {
+        "name": "Normal",
+        "id": 3,
+        "multiplier": [
+          {
+            "id": 14,
+            "value": 0.5
+          },
+          {
+            "id": 15,
+            "value": 0
+          },
+          {
+            "id": 7,
+            "value": 0.5
+          }
+        ]
+      },
+      {
+        "name": "Grass",
+        "id": 4,
+        "multiplier": [
+          {
+            "id": 12,
+            "value": 0.5
+          },
+          {
+            "id": 10,
+            "value": 0.5
+          },
+          {
+            "id": 11,
+            "value": 2
+          },
+          {
+            "id": 14,
+            "value": 2
+          },
+          {
+            "id": 13,
+            "value": 0.5
+          },
+          {
+            "id": 0,
+            "value": 0.5
+          },
+          {
+            "id": 1,
+            "value": 2
+          },
+          {
+            "id": 4,
+            "value": 0.5
+          },
+          {
+            "id": 5,
+            "value": 0.5
+          },
+          {
+            "id": 7,
+            "value": 0.5
+          }
+        ]
+      },
+      {
+        "name": "Dragon",
+        "id": 5,
+        "multiplier": [
+            {
+                "id": 5,
+                "value": 2
+            },
+            {
+                "id": 7,
+                "value": 0.5
+            },
+            {
+                "id": 17,
+                "value": 0
+            }
+        ]
+      },
+      {
+        "name": "Ice",
+        "id": 6,
+        "multiplier": [
+            {
+                "id": 11,
+                "value": 2
+            },
+            {
+                "id": 12,
+                "value": 2
+            },
+            {
+                "id": 1,
+                "value": 0.5
+            },
+            {
+                "id": 4,
+                "value": 2
+            },
+            {
+                "id": 6,
+                "value": 0.5
+            },
+            {
+                "id": 5,
+                "value": 2
+            },
+            {
+                "id": 7,
+                "value": 0.5
+            }
+        ]
+      },
+      {
+        "name": "Steel",
+        "id": 7,
+        "multiplier": [
+            {
+                "id": 0,
+                "value": 0.5
+            },
+            {
+                "id": 1,
+                "value": 0.5
+            },
+            {
+                "id": 6,
+                "value": 0.5
+            },
+            {
+                "id": 9,
+                "value": 2
+            },
+            {
+                "id": 14,
+                "value": 2
+            },
+            {
+                "id": 7,
+                "value": 0.5
+            },
+            {
+                "id": 17,
+                "value": 2
+            }
+        ]
+      },
+      {
+        "name": "Electric",
+        "id": 8,
+        "multiplier": [
+            {
+                "id": 1,
+                "value": 2
+            },
+            {
+                "id": 4,
+                "value": 0.5
+            },
+            {
+                "id": 8,
+                "value": 0.5
+            },
+            {
+                "id": 11,
+                "value": 0
+            },
+            {
+                "id": 12,
+                "value": 2
+            },
+            {
+                "id": 5,
+                "value": 0.5
+            }
+        ]
+      },
+      {
+        "name": "Fighting",
+        "id": 9,
+        "multiplier": [
+            {
+                "id": 3,
+                "value": 2
+            },
+            {
+                "id": 6,
+                "value": 2
+            },
+            {
+                "id": 10,
+                "value": 0.5
+            },
+            {
+                "id": 12,
+                "value": 0.5
+            },
+            {
+                "id": 2,
+                "value": 0.5
+            },
+            {
+                "id": 13,
+                "value": 0.5
+            },
+            {
+                "id": 14,
+                "value": 2
+            },
+            {
+                "id": 15,
+                "value": 0
+            },
+            {
+                "id": 16,
+                "value": 2
+            },
+            {
+                "id": 7,
+                "value": 2
+            },
+            {
+                "id": 17,
+                "value": 0.5
+            }
+        ]
+      },
+      {
+        "name": "Poison",
+        "id": 10,
+        "multiplier": [
+            {
+                "id": 4,
+                "value": 2
+            },
+            {
+                "id": 10,
+                "value": 0.5
+            },
+            {
+                "id": 11,
+                "value": 0.5
+            },
+            {
+                "id": 14,
+                "value": 0.5
+            },
+            {
+                "id": 15,
+                "value": 0.5
+            },
+            {
+                "id": 7,
+                "value": 0
+            },
+            {
+                "id": 17,
+                "value": 2
+            }
+        ]
+      },
+      {
+        "name": "Ground",
+        "id": 11,
+        "multiplier": [
+            {
+                "id": 0,
+                "value": 2
+            },
+            {
+                "id": 4,
+                "value": 0.5
+            },
+            {
+                "id": 8,
+                "value": 2
+            },
+            {
+                "id": 10,
+                "value": 2
+            },
+            {
+                "id": 12,
+                "value": 0
+            },
+            {
+                "id": 13,
+                "value": 0.5
+            },
+            {
+                "id": 14,
+                "value": 2
+            },
+            {
+                "id": 7,
+                "value": 2
+            }
+        ]
+      },
+      {
+        "name": "Flying",
+        "id": 12,
+        "multiplier": [
+            {
+                "id": 4,
+                "value": 2
+            },
+            {
+                "id": 8,
+                "value": 0.5
+            },
+            {
+                "id": 9,
+                "value": 2
+            },
+            {
+                "id": 13,
+                "value": 2
+            },
+            {
+                "id": 14,
+                "value": 0.5
+            },
+            {
+                "id": 7,
+                "value": 0.5
+            }
+        ]
+      },
+      {
+        "name": "Bug",
+        "id": 13,
+        "multiplier": [
+            {
+                "id": 1,
+                "value": 0.5
+            },
+            {
+                "id": 4,
+                "value": 2
+            },
+            {
+                "id": 9,
+                "value": 0.5
+            },
+            {
+                "id": 10,
+                "value": 0.5
+            },
+            {
+                "id": 12,
+                "value": 0.5
+            },
+            {
+                "id": 2,
+                "value": 2
+            },
+            {
+                "id": 15,
+                "value": 0.5
+            },
+            {
+                "id": 5,
+                "value": 2
+            },
+            {
+                "id": 7,
+                "value": 0.5
+            },
+            {
+                "id": 17,
+                "value": 0.5
+            }
+        ]
+      },
+      {
+        "name": "Rock",
+        "id": 14,
+        "multiplier": [
+            {
+                "id": 0,
+                "value": 2
+            },
+            {
+                "id": 6,
+                "value": 2
+            },
+            {
+                "id": 9,
+                "value": 0.5
+            },
+            {
+                "id": 11,
+                "value": 0.5
+            },
+            {
+                "id": 12,
+                "value": 2
+            },
+            {
+                "id": 13,
+                "value": 2
+            },
+            {
+                "id": 7,
+                "value": 0.5
+            }
+        ]
+      },
+      {
+        "name": "Ghost",
+        "id": 15,
+        "multiplier": [
+            {
+                "id": 3,
+                "value": 0
+            },
+            {
+                "id": 13,
+                "value": 2
+            },
+            {
+                "id": 5,
+                "value": 2
+            },
+            {
+                "id": 16,
+                "value": 0.5
+            }
+        ]
+      },
+      {
+        "name": "Dark",
+        "id": 16,
+        "multiplier": [
+            {
+                "id": 9,
+                "value": 0.5
+            },
+            {
+                "id": 2,
+                "value": 2
+            },
+            {
+                "id": 15,
+                "value": 2
+            },
+            {
+                "id": 16,
+                "value": 0.5
+            },
+            {
+                "id": 17,
+                "value": 0.5
+            }
+        ]
+      },
+      {
+        "name": "Fairy",
+        "id": 17,
+        "multiplier": [
+            {
+                "id": 0,
+                "value": 0.5
+            },
+            {
+                "id": 9,
+                "value": 2
+            },
+            {
+                "id": 10,
+                "value": 0.5
+            },
+            {
+                "id": 5,
+                "value": 2
+            },
+            {
+                "id": 16,
+                "value": 2
+            },
+            {
+                "id": 7,
+                "value": 0.5
+            }
+        ]
+      }
+    ]
+  }
+  
