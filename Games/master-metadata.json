@@ -1,4 +1,120 @@
 {
+    "moves": [
+        {
+            "id": 0,
+            "name": "Absorb",
+            "type": 4,
+            "effect": 0,
+            "cat": "special",
+            "power": 20,
+            "accuracy": 100,
+            "pp": 25
+        },
+        {
+            "id": 1,
+            "name": "Accelerock",
+            "type": 14,
+            "effect": 1,
+            "cat": "physical",
+            "power": 40,
+            "accuracy": 100,
+            "pp": 20
+        },
+        {
+            "id": 2,
+            "name": "Acid",
+            "type": 10,
+            "effect": 2,
+            "cat": "special",
+            "power": 40,
+            "accuracy": 100,
+            "pp": 30
+        },
+        {
+            "id": 3,
+            "name": "Acid Armor",
+            "type": 10,
+            "effect": 3,
+            "cat": "status",
+            "power": 0,
+            "accuracy": 0,
+            "pp": 20
+        },
+        {
+            "id": 4,
+            "name": "Acid Spray",
+            "type": 10,
+            "effect": 4,
+            "cat": "special",
+            "power": 40,
+            "accuracy": 100,
+            "pp": 20
+        },
+        {
+            "id": 5,
+            "name": "Acrobatics",
+            "type": 12,
+            "effect": 5,
+            "cat": "physical",
+            "power": 55,
+            "accuracy": 100,
+            "pp": 15
+        },
+        {
+            "id": 6,
+            "name": "Acupressure",
+            "type": 3,
+            "effect": 6,
+            "cat": "status",
+            "power": 0,
+            "accuracy": 0,
+            "pp": 30
+        },
+        {
+            "id": 7,
+            "name": "Aerial Ace",
+            "type": 12,
+            "effect": 7,
+            "cat": "special",
+            "power": 60,
+            "accuracy": 0,
+            "pp": 20
+        }
+    ],
+    "effects": [
+        {
+            "id": 0,
+            "description": "User recovers half the HP inflicted on opponent.",
+        },
+        {
+            "id": 1,
+            "description": "User attacks first."
+        },
+        {
+            "id": 2,
+            "description": "May lower opponent's Special Defense."
+        },
+        {
+            "id": 3,
+            "description": "Sharply raises user's Defense."
+        },
+        {
+            "id": 4,
+            "description": "Sharply lowers opponent's Special Defense."
+        },
+        {
+            "id": 5,
+            "description": "Stronger when the user does not have a held item."
+        },
+        {
+            "id": 6,
+            "description": "Sharply raises a random stat."
+        },
+        {
+            "id": 7,
+            "description": "Ignores Accuracy and Evasiveness."
+        }
+    ],
     "types": [
       {
         "name": "Fire",
